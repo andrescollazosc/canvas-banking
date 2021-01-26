@@ -1,0 +1,26 @@
+@import '../../styles/colors';
+@import '../../styles/typography';
+
+.big-title {
+    font-family: Nunito, sans-serif;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 700;
+    color: $primary-gray-color;
+}
+
+.medium-title {
+    font-family: Nunito, sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    color: $primary-gray-color;
+}
+
+.small-title {
+    font-family: Nunito, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    color: $primary-gray-color;
+}
