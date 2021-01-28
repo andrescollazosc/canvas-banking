@@ -1,0 +1,36 @@
+@import '../../styles/colors';
+@import '../../styles/typography';
+
+.body{
+    height: 120%;
+}
+
+.header-container{
+    width: 100%;
+    border-bottom: 2px $primary-gray-color;
+    border-bottom-style: groove;
+    padding-bottom: 10px;
+    display: flex;
+    top: 0px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.footer-container{
+    width: 100%;
+    border-top: 2px $primary-gray-color;
+    border-top-style: groove;
+    padding-top: 10px;
+    display: flex;
+    bottom: 0px;
+    position: absolute;
+    background-color: white;
+}

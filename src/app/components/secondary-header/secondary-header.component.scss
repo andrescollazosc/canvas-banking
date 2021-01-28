@@ -1,0 +1,73 @@
+@import '../../styles/typography';
+@import '../../styles/colors';
+
+.header-container{
+    height: 6rem;
+    background-color: #018868;
+}
+
+.items-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+
+.banking-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banking-name{
+    font-family: Nunito, sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.banking-logo{
+    width: 70px;
+    margin-bottom: 4px;
+}
+
+.banking-logo img{
+    width: 100%;
+}
+
+.user-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-name{
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.close-icon{
+    font-family: Nunito, sans-serif;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .banking-name{
+        font-size: 16px;
+        margin-left: 0.5rem;
+    }
+
+    .user-name{
+        font-size: 14px;
+        margin-right: 0.5rem;
+    }
+
+    
+}
