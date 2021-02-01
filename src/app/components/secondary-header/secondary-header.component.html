@@ -4,19 +4,19 @@
     <div class="container">
         
         <div class="items-header">
-            <div class="banking-items">
-                <div class="banking-logo">
+            <div class="items-header__banking-items">
+                <div class="items-header__banking-logo">
                     <img [src]="configHeader.imgUrl" alt="">
                 </div>
-                <div class="banking-name">
+                <div class="items-header__banking-name">
                     {{configHeader.bankingName}}
                 </div>
             </div>
-            <div class="user-items">
-                <div class="user-name">
+            <div class="items-header__banking-items">
+                <div class="items-header__user-name">
                     {{configHeader.userName}}
                 </div>
-                <div class="close-icon">
+                <div class="items-header__close-icon" (click)="close()">
                     <i class="fas fa-times"></i>
                 </div>
             </div>

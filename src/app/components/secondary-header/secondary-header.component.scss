@@ -3,7 +3,7 @@
 
 .header-container{
     height: 6rem;
-    background-color: #018868;
+    background-color: $primary-green-color;
 }
 
 .items-header{
@@ -12,50 +12,44 @@
     justify-content: space-between;
     align-items: center;
     height: 6rem;
-}
 
-.banking-items{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+    &__banking-items{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 
-.banking-name{
-    font-family: Nunito, sans-serif;
-    font-size: 22px;
-    color: white;
-    font-weight: 700;
-    margin-left: 1rem;
-}
-
-.banking-logo{
-    width: 70px;
-    margin-bottom: 4px;
-}
-
-.banking-logo img{
-    width: 100%;
-}
-
-.user-items{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.user-name{
-    font-family: Nunito, sans-serif;
-    font-size: 18px;
-    color: white;
-    font-weight: 600;
-    margin-right: 1rem;
-}
-
-.close-icon{
-    font-family: Nunito, sans-serif;
-    font-size: 24px;
-    color: white;
-    cursor: pointer;
+    &__banking-name{
+        font-family: Nunito, sans-serif;
+        font-size: 22px;
+        color: $primary-white-color;
+        font-weight: 700;
+        margin-left: 1rem;
+    }
+    
+    &__banking-logo{
+        width: 70px;
+        margin-bottom: 4px;
+    }
+    
+    &__banking-logo img{
+        width: 100%;
+    }
+    
+    &__user-name{
+        font-family: Nunito, sans-serif;
+        font-size: 18px;
+        color: $primary-white-color;
+        font-weight: 600;
+        margin-right: 1rem;
+    }
+    
+    &__close-icon{
+        font-family: Nunito, sans-serif;
+        font-size: 24px;
+        color: $primary-white-color;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 768px) {
@@ -68,6 +62,4 @@
         font-size: 14px;
         margin-right: 0.5rem;
     }
-
-    
 }

@@ -5,16 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TitlesComponent } from './components/titles/titles.component';
 import { TextsComponent } from './pages/texts/texts.component';
-import { HeaderandfooterComponent } from './components/headerandfooter/headerandfooter.component';
 import { SecondaryHeaderComponent } from './components/secondary-header/secondary-header.component';
+import { HeadersComponent } from './pages/headers/headers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitlesComponent,
     TextsComponent,
-    HeaderandfooterComponent,
-    SecondaryHeaderComponent
+    SecondaryHeaderComponent,
+    HeadersComponent
   ],
   imports: [
     BrowserModule,
